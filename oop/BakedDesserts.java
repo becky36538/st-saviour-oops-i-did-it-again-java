@@ -5,6 +5,6 @@ public abstract class BakedDesserts extends Desserts { // public class that exte
         super(name);
     }
     public String bake() { // if title belongs to a painting, it can be hung on a wall
-        return this.getName() + " is baked in an oven.";
+        return getName() + " is baked in an oven.";
     }
 }

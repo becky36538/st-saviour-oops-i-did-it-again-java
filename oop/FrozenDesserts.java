@@ -5,7 +5,6 @@ public abstract class FrozenDesserts extends Desserts { // public class that ext
         super(name);
     }
     public String freeze() { // if name belongs to a frozen dessert, it can be stored in a freezer
-    public getName();
-        return this.name + " can be stored in a freezer.";
+    return getName()+ " can be stored in a freezer.";
     }
 }

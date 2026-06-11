@@ -1,17 +1,17 @@
 package whoops;
 // abstract grandparent class
 public abstract class Desserts {
-    private String name; //private variable
-    public Desserts(String name) { // constructor used for subclasses
+    private String name; // stores name of dessert
+    public Desserts(String name) { // initializes desserts
         this.name = name;
     }
-    public void setName(String name) { // method that shows how title changes depending on the artwork
+    public void setName(String name) { // allows name of dessert to be changed
         this.name = name;
     }
-    public String getName() { // method that retrieves the title of artwork
+    public String getName() { // returns name of dessert
         return this.name;
     }
-    public String display () { // says that any title of artwork is a work of art
+    public String display () { // describes any object of dessert
         return this.name + " is a delicious dessert! 😋";
     }
 }

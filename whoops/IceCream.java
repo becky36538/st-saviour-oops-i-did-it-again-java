@@ -1,10 +1,10 @@
 package whoops;
-public class IceCream extends FrozenDesserts { // public class that extends baked desserts
+public class IceCream extends FrozenDesserts { // public class that extends frozen desserts
 
     public IceCream(String name) {
-        super(name); // super used to indicate name of cookie
+        super(name); // super passes name of ice cream to parent classes
     }
-    public String scoop() { // adds layer of acrylic paint to the painting
+    public String scoop() { // describes trait of ice cream
         return this.getName() + "can be scooped! 🍨";
     }
     

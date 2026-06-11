@@ -1,10 +1,10 @@
 package whoops;
-public class FrozenYogurt extends FrozenDesserts { // public class that extends baked desserts
+public class FrozenYogurt extends FrozenDesserts { // public class that extends frozen desserts
 
     public FrozenYogurt(String name) {
-        super(name); // super used to indicate name of cookie
+        super(name); // super passes name of frozen yogurt to parent classes
     }
-    public String toppings() { // adds layer of acrylic paint to the painting
+    public String toppings() { // describes trait of frozen yogurt
         return this.getName() + "can be ordered with toppings! 🍨";
     }
     

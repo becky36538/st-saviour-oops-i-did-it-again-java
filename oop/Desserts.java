@@ -1,4 +1,4 @@
-package oops;
+package whoops;
 // abstract grandparent class
 public abstract class Desserts {
     private String name; //private variable
